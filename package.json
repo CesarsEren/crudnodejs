@@ -1,0 +1,22 @@
+{
+  "name": "nodemssql",
+  "version": "1.0.0",
+  "description": "Sistema para referencias de Rrhh",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon  src/index,js",
+    "start": "node src/index.js"
+  },
+  "author": "Cesars",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.9.2",
+    "mssql": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
